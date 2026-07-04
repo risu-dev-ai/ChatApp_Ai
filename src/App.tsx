@@ -613,7 +613,7 @@ export default function App() {
 
     try {
       const currentHistory = voiceStateRef.current.floatingAIHistory;
-      const res = await fetch("/api/chat", {
+      const res = await fetch("https://chatapp-ai-yroe.onrender.com/api/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -742,7 +742,7 @@ export default function App() {
     setOtpTarget(target);
 
     try {
-      const res = await fetch("/api/otp/send", {
+      const res = await fetch("https://chatapp-ai-yroe.onrender.com/api/otp/send", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -779,7 +779,7 @@ export default function App() {
     setOtpStatusMsg("");
 
     try {
-      const res = await fetch("/api/otp/verify", {
+      const res = await fetch("https://chatapp-ai-yroe.onrender.com/api/otp/verify", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -1400,7 +1400,7 @@ export default function App() {
         });
 
       try {
-        const res = await fetch("/api/chat", {
+        const res = await fetch("https://chatapp-ai-yroe.onrender.com/api/chat", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
@@ -4071,7 +4071,7 @@ export default function App() {
                         setIsFloatingAITyping(true);
 
                         try {
-                          const res = await fetch("/api/chat", {
+                          const res = await fetch("https://chatapp-ai-yroe.onrender.com/api/chat", {
                             method: "POST",
                             headers: { "Content-Type": "application/json" },
                             body: JSON.stringify({
