@@ -1,0 +1,6 @@
+{
+  "appId": "com.risu.chatapp",
+  "appName": "BakBak AI",
+  "webDir": "dist",
+  "bundledWebRuntime": false
+}

@@ -1,0 +1,6 @@
+{
+  "name": "BakBak AI",
+  "description": "An ultra-responsive, E2EE premium chat application with real-time messaging, audio/video calling previews, contacts syncing, profile management, custom theme presets, and built-in BakBak Gemini AI conversational assistance.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
